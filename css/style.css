@@ -42,12 +42,46 @@ q::before, q::after {
 	content: none;
 }
 
-table {
+/* table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
 /* Do not write a css rule above here! Use the space below  */
 
 
 /* Write your css below here */
+
+
+*{
+box-sizing:border-box;
+margin: 0;
+padding: 0;
+}
+
+table{
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	margin:auto;
+}
+
+.black{
+	background-color: black;
+}
+
+.white{
+	color: white;
+	
+}
+
+
+
+/* MEDIA QUERRIES */
+
+@media screen and (width >=575px) {
+	table{
+		height:1200px;
+		width:1200px;
+	}
+}
